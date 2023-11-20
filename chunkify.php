@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 $word = $_POST['word'];
 $number = $_POST['number'];
@@ -8,6 +12,9 @@ echo "The {$number} -letter chunks of {$word} are: <br />";
 
 for( $i = 0; $i < $chunks; $i++ ) {
     $chuck = substr($word, $i * $number, $number);
-    print("%d: %s <br />\n" , $i + 1. $chunk);
+    printf("%d : %s <br />", $i + 1, $chuck);
 }
 ?>
+
+</body>
+</html>

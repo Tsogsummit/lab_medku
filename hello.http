@@ -1,7 +1,1 @@
-POST https://csii203-at-num-2023autumn-w1.azurewebsites.net/api/endpoint2?code=vgtcas3Sthgog5Hq5ATf6mYfAZHumroe9KPFbeEXEFJ2AzFuaXvZhg==&studentid=20b1num0725 HTTP/1.1
-content-type: application/json
-
-{
-    "food": "pasta",
-    "type": "hot"
-}
+GET http://127.0.0.1:5500/chunkify.html HTTP/1.1" 
